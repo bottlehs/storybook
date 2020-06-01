@@ -57,7 +57,7 @@ export default ({ entry, provided = [] }) => ({
     alias: {
       ...themingPaths,
       ...uiPaths,
-      semver: require.resolve('@storybook/semver'),
+      semver: '@storybook/semver',
     },
   },
 
